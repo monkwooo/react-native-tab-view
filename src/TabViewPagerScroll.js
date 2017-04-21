@@ -137,7 +137,7 @@ export default class TabViewPagerScroll
         pagingEnabled
         directionalLockEnabled
         keyboardDismissMode="on-drag"
-        keyboardShouldPersistTaps="true"
+        keyboardShouldPersistTaps={true}
         scrollEnabled={this.props.swipeEnabled}
         automaticallyAdjustContentInsets={false}
         bounces={false}
