@@ -199,6 +199,7 @@ export default class TabBar extends PureComponent<DefaultProps, Props, State> {
     }
     return (
       <Text
+        allowFontScaling={false}
         style={[styles.tabLabel, this.props.labelStyle]}
         ellipsizeMode={'tail'}
         numberOfLines={1}
